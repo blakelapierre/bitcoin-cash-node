@@ -132,16 +132,16 @@ public:
         consensus.phononHeight = 1;
 
         // Nov 15, 2020 12:00:00 UTC protocol upgrade
-        consensus.axionActivationTime = 1605441600;
+        consensus.axionActivationTime = 1;
 
         // May 15, 2021 12:00:00 UTC protocol upgrade was 1621080000, but since this upgrade was for relay rules only,
         // we do not track this time (since it does not apply at all to the blockchain itself).
 
         // May 15, 2022 12:00:00 UTC protocol upgrade
-        consensus.upgrade8ActivationTime = 1652616000;
+        consensus.upgrade8ActivationTime = 1;
 
         // May 15, 2023 12:00:00 UTC tentative protocol upgrade
-        consensus.upgrade9ActivationTime = 1684152000;
+        consensus.upgrade9ActivationTime = 1;
 
         // Default limit for block size (in bytes)
         consensus.nDefaultExcessiveBlockSize = DEFAULT_EXCESSIVE_BLOCK_SIZE;
