@@ -212,7 +212,7 @@ public:
         base58Prefixes[SECRET_KEY] = std::vector<uint8_t>(1, 128);
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
-        cashaddrPrefix = "bitcoincash";
+        cashaddrPrefix = "tbj";
 
         vFixedSeeds.assign(std::begin(pnSeed6_main), std::end(pnSeed6_main));
 
