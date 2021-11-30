@@ -227,12 +227,12 @@ public:
         // (height 699219).
         chainTxData = ChainTxData{
             // UNIX timestamp of last known number of transactions.
-            1628025092,
+            0,
             // Total number of transactions between genesis and that timestamp
             // (the tx=... number in the ChainStateFlushed debug.log lines)
-            337117246,
+            0,
             // Estimated number of transactions per second after that timestamp.
-            1.49,
+            0,
         };
     }
 };
