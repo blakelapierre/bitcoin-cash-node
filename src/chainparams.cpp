@@ -84,16 +84,16 @@ public:
         consensus.nSubsidyHalvingInterval = 210000;
         // 00000000000000ce80a7e057163a4db1d5ad7b20fb6f598c9597b9665c8fb0d4 -
         // April 1, 2012
-        consensus.BIP16Height = 173805;
-        consensus.BIP34Height = 227931;
+        consensus.BIP16Height = 1;
+        consensus.BIP34Height = 1;
         consensus.BIP34Hash = BlockHash::fromHex(
             "000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
         // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
-        consensus.BIP65Height = 388381;
+        consensus.BIP65Height = 1;
         // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
-        consensus.BIP66Height = 363725;
+        consensus.BIP66Height = 1;
         // 000000000000000004a1b34462cb8aeebd5799177f7a29cf28f2d1961716b5b5
-        consensus.CSVHeight = 419328;
+        consensus.CSVHeight = 1;
         consensus.powLimit = uint256S(
             "00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         // two weeks
@@ -117,19 +117,19 @@ public:
             ChainParamsConstants::MAINNET_DEFAULT_ASSUME_VALID;
 
         // August 1, 2017 hard fork
-        consensus.uahfHeight = 478558;
+        consensus.uahfHeight = 1;
 
         // November 13, 2017 hard fork
-        consensus.daaHeight = 504031;
+        consensus.daaHeight = 1;
 
         // November 15, 2018 hard fork
-        consensus.magneticAnomalyHeight = 556766;
+        consensus.magneticAnomalyHeight = 1;
 
         // November 15, 2019 protocol upgrade
-        consensus.gravitonHeight = 609135;
+        consensus.gravitonHeight = 1;
 
         // May 15, 2020 12:00:00 UTC protocol upgrade
-        consensus.phononHeight = 635258;
+        consensus.phononHeight = 1;
 
         // Nov 15, 2020 12:00:00 UTC protocol upgrade
         consensus.axionActivationTime = 1605441600;
