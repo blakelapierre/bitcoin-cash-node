@@ -220,64 +220,7 @@ public:
         fRequireStandard = true;
         m_is_test_chain = false;
 
-        checkpointData = {
-            /* .mapCheckpoints = */ {
-                {11111, BlockHash::fromHex("0000000069e244f73d78e8fd29ba2fd2ed6"
-                                           "18bd6fa2ee92559f542fdb26e7c1d")},
-                {33333, BlockHash::fromHex("000000002dd5588a74784eaa7ab0507a18a"
-                                           "d16a236e7b1ce69f00d7ddfb5d0a6")},
-                {74000, BlockHash::fromHex("0000000000573993a3c9e41ce34471c079d"
-                                           "cf5f52a0e824a81e7f953b8661a20")},
-                {105000, BlockHash::fromHex("00000000000291ce28027faea320c8d2b0"
-                                            "54b2e0fe44a773f3eefb151d6bdc97")},
-                {134444, BlockHash::fromHex("00000000000005b12ffd4cd315cd34ffd4"
-                                            "a594f430ac814c91184a0d42d2b0fe")},
-                {168000, BlockHash::fromHex("000000000000099e61ea72015e79632f21"
-                                            "6fe6cb33d7899acb35b75c8303b763")},
-                {193000, BlockHash::fromHex("000000000000059f452a5f7340de6682a9"
-                                            "77387c17010ff6e6c3bd83ca8b1317")},
-                {210000, BlockHash::fromHex("000000000000048b95347e83192f69cf03"
-                                            "66076336c639f9b7228e9ba171342e")},
-                {216116, BlockHash::fromHex("00000000000001b4f4b433e81ee46494af"
-                                            "945cf96014816a4e2370f11b23df4e")},
-                {225430, BlockHash::fromHex("00000000000001c108384350f74090433e"
-                                            "7fcf79a606b8e797f065b130575932")},
-                {250000, BlockHash::fromHex("000000000000003887df1f29024b06fc22"
-                                            "00b55f8af8f35453d7be294df2d214")},
-                {279000, BlockHash::fromHex("0000000000000001ae8c72a0b0c301f67e"
-                                            "3afca10e819efa9041e458e9bd7e40")},
-                {295000, BlockHash::fromHex("00000000000000004d9b4ef50f0f9d686f"
-                                            "d69db2e03af35a100370c64632a983")},
-                // UAHF fork block.
-                {478558, BlockHash::fromHex("0000000000000000011865af4122fe3b14"
-                                            "4e2cbeea86142e8ff2fb4107352d43")},
-                // Nov, 13 DAA activation block.
-                {504031, BlockHash::fromHex("0000000000000000011ebf65b60d0a3de8"
-                                            "0b8175be709d653b4c1a1beeb6ab9c")},
-                // Monolith activation.
-                {530359, BlockHash::fromHex("0000000000000000011ada8bd08f46074f"
-                                            "44a8f155396f43e38acf9501c49103")},
-                // Magnetic anomaly activation.
-                {556767, BlockHash::fromHex("0000000000000000004626ff6e3b936941"
-                                            "d341c5932ece4357eeccac44e6d56c")},
-                // Great wall activation.
-                {582680, BlockHash::fromHex("000000000000000001b4b8e36aec7d4f96"
-                                            "71a47872cb9a74dc16ca398c7dcc18")},
-                // Graviton activation.
-                {609136, BlockHash::fromHex("000000000000000000b48bb207faac5ac6"
-                                            "55c313e41ac909322eaa694f5bc5b1")},
-                // Phonon activation.
-                {635259, BlockHash::fromHex("00000000000000000033dfef1fc2d6a5d5"
-                                            "520b078c55193a9bf498c5b27530f7")},
-                // Axion activation.
-                {661648, BlockHash::fromHex("0000000000000000029e471c41818d24b8"
-                                            "b74c911071c4ef0b4a0509f9b5a8ce")},
-                {682900, BlockHash::fromHex("0000000000000000018b0a60a00ca53b69"
-                                            "b213a8515e5eedbf8a207f0355fe42")},
-
-                // Upgrade 7 ("tachyon") era (actual activation block was 688094)
-                {699484, BlockHash::fromHex("0000000000000000030192242425926218184a609a63efee615b7586d7f3972b")},
-            }};
+        checkpointData = { };
 
         // Data as of block
         // 000000000000000000d7e938f43eb520468fc75dc626c54ec770f9cd1bd6bc1d
