@@ -163,14 +163,14 @@ public:
          * normal data. The characters are rarely used upper ASCII, not valid as
          * UTF-8, and produce a large 32-bit integer with any alignment.
          */
-        diskMagic[0] = 0xf9;
-        diskMagic[1] = 0xbe;
-        diskMagic[2] = 0xb4;
-        diskMagic[3] = 0xd9;
-        netMagic[0] = 0xe3;
-        netMagic[1] = 0xe1;
-        netMagic[2] = 0xf3;
-        netMagic[3] = 0xe8;
+        diskMagic[0] = 0xfa;
+        diskMagic[1] = 0xbf;
+        diskMagic[2] = 0xb5;
+        diskMagic[3] = 0xda;
+        netMagic[0] = 0xe4;
+        netMagic[1] = 0xe2;
+        netMagic[2] = 0xf4;
+        netMagic[3] = 0xe9;
         nDefaultPort = 8333;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 240;
@@ -317,14 +317,14 @@ public:
             1605445400,   // anchor block previous block timestamp
         };
 
-        diskMagic[0] = 0x0b;
-        diskMagic[1] = 0x11;
-        diskMagic[2] = 0x09;
-        diskMagic[3] = 0x07;
-        netMagic[0] = 0xf4;
-        netMagic[1] = 0xe5;
-        netMagic[2] = 0xf3;
-        netMagic[3] = 0xf4;
+        diskMagic[0] = 0xfa;
+        diskMagic[1] = 0xbf;
+        diskMagic[2] = 0xb5;
+        diskMagic[3] = 0xda;
+        netMagic[0] = 0xe4;
+        netMagic[1] = 0xe2;
+        netMagic[2] = 0xf4;
+        netMagic[3] = 0xe9;
         nDefaultPort = 18333;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 60;
@@ -463,14 +463,14 @@ public:
             1605451779,   // anchor block previous block timestamp
         };
 
-        diskMagic[0] = 0xcd;
-        diskMagic[1] = 0x22;
-        diskMagic[2] = 0xa7;
-        diskMagic[3] = 0x92;
-        netMagic[0] = 0xe2;
-        netMagic[1] = 0xb7;
-        netMagic[2] = 0xda;
-        netMagic[3] = 0xaf;
+        diskMagic[0] = 0xfa;
+        diskMagic[1] = 0xbf;
+        diskMagic[2] = 0xb5;
+        diskMagic[3] = 0xda;
+        netMagic[0] = 0xe4;
+        netMagic[1] = 0xe2;
+        netMagic[2] = 0xf4;
+        netMagic[3] = 0xe9;
         nDefaultPort = 28333;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 1;
@@ -603,14 +603,14 @@ public:
         // reorg back down to height 10,000 periodically.
         consensus.asertAnchorParams.reset();
 
-        diskMagic[0] = 0xba;
-        diskMagic[1] = 0xc2;
-        diskMagic[2] = 0x2d;
-        diskMagic[3] = 0xc4;
-        netMagic[0] = 0xc3;
-        netMagic[1] = 0xaf;
-        netMagic[2] = 0xe1;
-        netMagic[3] = 0xa2;
+        diskMagic[0] = 0xfa;
+        diskMagic[1] = 0xbf;
+        diskMagic[2] = 0xb5;
+        diskMagic[3] = 0xda;
+        netMagic[0] = 0xe4;
+        netMagic[1] = 0xe2;
+        netMagic[2] = 0xf4;
+        netMagic[3] = 0xe9;
         nDefaultPort = 38333;
         nPruneAfterHeight = 10000;
         m_assumed_blockchain_size = 200;
@@ -729,10 +729,10 @@ public:
         diskMagic[1] = 0xbf;
         diskMagic[2] = 0xb5;
         diskMagic[3] = 0xda;
-        netMagic[0] = 0xda;
-        netMagic[1] = 0xb5;
-        netMagic[2] = 0xbf;
-        netMagic[3] = 0xfa;
+        netMagic[0] = 0xe4;
+        netMagic[1] = 0xe2;
+        netMagic[2] = 0xf4;
+        netMagic[3] = 0xe9;
         nDefaultPort = 18444;
         nPruneAfterHeight = 1000;
         m_assumed_blockchain_size = 0;
