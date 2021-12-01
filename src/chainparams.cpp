@@ -164,7 +164,7 @@ public:
          * UTF-8, and produce a large 32-bit integer with any alignment.
          */
         diskMagic[0] = 0xf9;
-        diskMagic[1] = 0xbd;
+        diskMagic[1] = 0xbe;
         diskMagic[2] = 0xb4;
         diskMagic[3] = 0xd9;
         netMagic[0] = 0xe3;
