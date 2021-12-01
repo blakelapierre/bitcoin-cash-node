@@ -87,7 +87,7 @@ public:
         consensus.BIP16Height = 1;
         consensus.BIP34Height = 1;
         consensus.BIP34Hash = BlockHash::fromHex(
-            "000000000000024b89b42a942fe0d9fea3bb44ab7bd1b19115dd6a759c0808b8");
+            "00000000671e78e128aa4b3943689e2675d80410c280a81d9e102036716f1a0e");
         // 000000000000000004c2b624ed5d7756c508d90fd0da2c7c679febfa6c4735f0
         consensus.BIP65Height = 1;
         // 00000000000000000379eaa19dce8c9b722d46ae6a57c2f1a988119488b50931
@@ -180,8 +180,8 @@ public:
                                      50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock ==
-               uint256S("000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1"
-                        "b60a8ce26f"));
+               uint256S("00000000671e78e128aa4b3943689e2675d80410c280a81d9e1020"
+                        "36716f1a0e"));
         assert(genesis.hashMerkleRoot ==
                uint256S("47e610f3c0282e7318658c16dfbb6e34b32a8d16b41b36ff693a46"
                         "0d50967077"));
