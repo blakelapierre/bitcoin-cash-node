@@ -183,7 +183,7 @@ public:
                uint256S("00000000671e78e128aa4b3943689e2675d80410c280a81d9e1020"
                         "36716f1a0e"));
         assert(genesis.hashMerkleRoot ==
-               uint256S("777096500d463a69ff361bb4168d2ab3346ebbdf168c6518732e28c0f310e647"
+               uint256S("777096500d463a69ff361bb4168d2ab3346ebbdf168c6518732e28"
                         "c0f310e647"));
 
         vSeeds.emplace_back("seed.flowee.cash");
