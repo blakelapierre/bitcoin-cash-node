@@ -163,14 +163,14 @@ public:
          * normal data. The characters are rarely used upper ASCII, not valid as
          * UTF-8, and produce a large 32-bit integer with any alignment.
          */
-        diskMagic[0] = 0xfa;
-        diskMagic[1] = 0xbf;
-        diskMagic[2] = 0xb5;
-        diskMagic[3] = 0xda;
-        netMagic[0] = 0xe4;
-        netMagic[1] = 0xe2;
-        netMagic[2] = 0xf4;
-        netMagic[3] = 0xe9;
+        diskMagic[0] = 0xf9;
+        diskMagic[1] = 0xbd;
+        diskMagic[2] = 0xb4;
+        diskMagic[3] = 0xd9;
+        netMagic[0] = 0xe3;
+        netMagic[1] = 0xe1;
+        netMagic[2] = 0xf3;
+        netMagic[3] = 0xe8;
         nDefaultPort = 8333;
         nPruneAfterHeight = 100000;
         m_assumed_blockchain_size = 240;
