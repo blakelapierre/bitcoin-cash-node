@@ -66,9 +66,9 @@ CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits,
     const char *pszTimestamp =
         "hi twitter";
     const CScript genesisOutputScript =
-        CScript() << ParseHex("4104855b21edaac2ed5a5690674dc2f925321b2d33bf8acc"
-                              "22fa86b36f37a268e0ee5a5f37fab6d0b04bb56762d54aa6"
-                              "83b86ae23857b4ad8a17287ed302afc37871ac")
+        CScript() << ParseHex("04855b21edaac2ed5a5690674dc2f925321b2d33bf8acc22"
+                              "fa86b36f37a268e0ee5a5f37fab6d0b04bb56762d54aa683"
+                              "b86ae23857b4ad8a17287ed302afc37871")
                   << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce,
                               nBits, nVersion, genesisReward);
